@@ -796,6 +796,7 @@ installbase(){
 	options+=("linux-lts" "")
 	options+=("linux-zen" "")
 	options+=("linux-hardened" "")
+	options+=("linux-xanmod" "")
 	sel=$(whiptail --backtitle "${apptitle}" --title "${txtinstallarchlinuxkernel}" --menu "" 0 0 0 \
 		"${options[@]}" \
 		3>&1 1>&2 2>&3)
